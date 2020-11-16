@@ -1,0 +1,152 @@
+
+.wraper {
+	width: 100%;
+	min-width: 700px;
+	min-height: 100vh;
+	margin: 7.14285714rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url(fon.jpg);background-repeat: no-repeat; background-attachment: fixed;
+}
+
+.fixed{
+	top:0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	box-shadow: 0 0 0.57142857rem 0;
+}
+.header-top-block {
+	display: flex;
+	justify-content: space-between;
+	background-color: #42C6C6Ff;
+	align-items: center;
+	
+}
+
+.header-top-block__logo {
+
+}
+
+.header-top-block__title {text-align: center;
+	color:#FFFFFFFF;
+	font-size: 2.85714286rem;
+	letter-spacing: 0.21428571rem;
+	text-shadow: 0.35714286rem 0.14285714rem #4F4F4FFF;
+}
+
+.header-top-block__nav {
+	flex: 0 1 21.42857143rem;
+}
+
+.header-top-block__nav li{
+	display:inline-block;
+	margin-right: 0.57142857rem;
+}
+.tel {
+	color:#FFFFFFFF;
+	font-size: 2rem;
+	color:#DD4900FF;
+
+	
+
+}
+
+/*Content"s area*/
+
+
+.box-conteiner {
+
+
+}
+.content {
+	
+	width: 80%;
+	margin:auto;
+	background-color :rgba(255,255,255,0.7);
+
+}
+
+.content__title {
+	text-align: center;
+	color:#DD4900FF;
+	font-size: 2.86rem;
+	letter-spacing: 0.22rem;
+
+}
+.content__ferst {
+	line-height: 1.5; font-family: arial;
+	font-size: 2rem;
+	margin:10.71428571rem 0 0.71428571rem 0;
+	padding:  0.35714286rem;
+	min-height: 100vh;
+	
+}
+.content__ferst__text-style::first-letter {
+font-size: 2.5rem;
+color: #FF5500;
+
+
+}
+
+.content__ferst__text-style {
+margin:0 0 0 150px;
+
+
+}
+
+.list {
+margin-top: 130px;	
+float:right;
+	font-size: 1.5rem;
+	color: #00684CFF;
+}
+.list li{
+list-style-image: url(li1.png);
+
+}
+
+
+
+
+
+.content__second {
+	display: flex;
+	justify-content: space-around;
+	margin:0 0 0.71428571rem 0;
+	padding: 0.35714286rem;
+	min-height: 100vh;
+}
+
+
+.img1,.img2,.img3{
+	height: 14.28571429rem;
+
+}
+
+
+.img-adapiv {
+
+	 width: 100%;
+    height: auto;
+}
+
+/*footer*/
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #55557F;
+	color: #ffffff;
+	margin-bottom: 7.14285714rem;
+	height: 80px;
+}
+	
+
+
+.footer__rigt-block {}
+
+
+
